@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+.navbar {
+    overflow: hidden;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar a:hover {
+    background-color: black;
+    color: black;
+}
+
+.right {
+    color: brown;
+}
+

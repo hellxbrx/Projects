@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Всем привет!</title>
+    <link rel="stylesheet" href="static/hf.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <nav class = 'navbar'>
+        <a href= "test.html" style="padding : 20px 205px;  border: thick double white; background : #94e2cb">Главная</a>
+        <a href= "flask.html" style="padding : 20px 175px;border: thick double white; background : #94e2cb">Мое веб-приложение на Flask </a>
+        <a href = "https://skillfactory.ru/" style="padding : 20px 190px;border: thick double white; background : #94e2cb">Контакты</a>
+    </nav>
+<br><br><br>
+<div>
+    <h1 class="right" align="center">Привет, я начинающий веб-разработчик!</h1>
+    <h2>Немного информации обо мне:</h2>
+    <ol>
+        <li>Опыта в программировании нет, зато есть желание изучать новую для себя сферу.</li>
+        <li>Работаю спортивным аналитиком.</li>
+        <li>Изучаю программирование, для того, чтобы использовать полученные знания в своей работе, а возможно даже сменю профессию ;)</li>
+    </ol>
+</div>
+
+<img src = "static/pl.JPG" height="450" width="700"  alt = "Тут должно быть моё фото =\" >
+
+<form align="center" action="/answer" autocomplete = off method="POST">
+    <fieldset>
+        <legend>Задайте мне вопрос</legend>
+        <p><label for="name">Имя <em>*</em></label><input type="text" id="name" name ="name"></p>
+        <p><label for="email">E-mail <em>*</em></label><input type="email" id="email" name ="email"></p>
+        <textarea cols="25" rows="5"></textarea>
+    </fieldset>
+<p><input name ="message" type="submit" value="Отправить"></p>
+</form>
+    <hr>
+    <footer>
+        <p>Иванов Дмитрий, 2020</p>
+        <p>ivanoffddmitry@gmail.com</p>
+    </footer>
+</body>
+</html>

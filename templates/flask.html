@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Мое веб-приложение на Flask</title>
+    <link rel="stylesheet" href="static/hf.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <nav class = 'navbar'>
+        <a href="test.html" style="padding : 20px 205px;  border: thick double white; background : #94e2cb">Главная</a>
+        <a href="flask.html" style="padding : 20px 175px;border: thick double white; background : #94e2cb">Мое веб-приложение на Flask </a>
+        <a href = "https://skillfactory.ru/" style="padding : 20px 190px;border: thick double white; background : #94e2cb">Контакты</a>
+    </nav>
+    <form align="center" action="/answer2" autocomplete = off method="POST">
+    <fieldset>
+        <legend>Сортировка</legend>
+        <p><label for="word">Последовательность для сортировки</label><input type="text" id="word" name ="word"></p>
+    </fieldset>
+        <p><input name ="message" type="submit" value="Сортировать"></p>
+        <p><label>Отсортированная строка</label>{{ans}}</p>
+</form>
+</body>
+</html>
